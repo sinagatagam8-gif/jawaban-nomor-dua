@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soal 2 - Halaman Web UNINDRA (Rata Kiri)</title>
+    <style>
+        body {
+            background-color: yellow;
+            font-family: Arial, sans-serif;
+            text-align: left; 
+        }
+        .judul-utama {
+            color: blue;
+            font-size: 24pt;
+            margin-top: 50px;
+            text-align: center;
+        }
+        .alamat-marquee {
+            font-size: 18pt;
+            color: red;
+            margin: 5px 0 20px 0;
+            white-space: nowrap; 
+            font-style: italic;
+        }
+        .separator {
+            border: none;
+            height: 5px;
+            background-color: black; 
+            margin: 20px auto;
+            width: 80%;
+        }
+        .data-table {
+            border-collapse: collapse;
+            width: 400px; 
+            margin: 0 auto 30px auto;
+        }
+        .data-table td {
+            border: 1px solid black;
+            padding: 5px;
+            text-align: left;
+        }
+        .list-container-wrapper {
+            width: 400px;
+            margin: 0 auto;
+            text-align: left;
+        }
+        .list-FTIK {
+            list-style-type: upper-alpha;
+            margin-left: 20px;
+        }
+        .list-MIPA {
+            list-style-type: upper-roman;
+            margin-left: 20px;
+        }
+        .button-center {
+            margin-top: 30px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        .save-button {
+            padding: 10px 30px;
+            font-size: 14pt;
+        }
+    .header-logo-container {
+        display: flex; 
+        align-items: center; 
+        justify-content: center; 
+        width: 100%; 
+        margin-top: 50px; 
+    }
+    .logo-img {
+        width: 100px; 
+        height: auto;
+        margin-right: 10px; 
+    }
+    .logo-text {
+        font-size: 24pt; 
+        color: blue; 
+        font-weight: bold; 
+        text-align: left; 
+    }
+</style>
+
+<div class="header-logo-container">
+    <img src="/img/LogoUniversitas Indraprasta PGRI.png" alt="Logo UNINDRA" class="logo-img">
+
+    <div class="logo-text">
+        UNIVERSITAS INDRAPRASTA PGRI (UNINDRA)
+    </div>
+</div>
+
+<div class="alamat-marquee">
+        <marquee direction="left" behavior="alternate" scrollamount="5">
+            Jl.Nangka No.58 Tanjung Barat-JakSel
+        </marquee>
+    </div>
+
+    <hr class="separator"> 
+
+    <table class="data-table">
+        <tr>
+            <td>Nama</td>
+            <td>Tagam Arlington Sinaga</td>
+        </tr>
+        <tr>
+            <td>NPM</td>
+            <td>202433500265</td>
+        </tr>
+    </table>
+
+    <div class="list-container">
+        <p style="margin-bottom: 5px;">FTIK:</p>
+        <ol class="list-FTIK">
+            <li>Informatika</li>
+            <li>Teknik Arsitektur</li>
+            <li>Teknik Industri</li>
+        </ol>
+    </div>
+    
+    <div class="button-center">
+         <button class="save-button">SIMPAN</button>
+    </div>
+
+    <div class="list-container">
+        <p style="margin-bottom: 5px;">MIPA:</p>
+        <ol class="list-MIPA">
+            <li>Matematika</li>
+            <li>Fisika</li>
+            <li>Biologi</li>
+        </ol>
+    </div>
+
+</body>
+</html>
